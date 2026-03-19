@@ -65,7 +65,7 @@ The goal of this analysis is to extract meaningful insights that can support bus
 
 ## 📷 Sample Visualization
 
-(Add your screenshots here)
+![Sales by Region and Genre](Visual/Perbandingan Penjualan Video Game per Wilayah Berdasarkan Genre.png)
 
 ---
 
@@ -79,7 +79,6 @@ The goal of this analysis is to extract meaningful insights that can support bus
 
 ## 📌 Project Structure
 video-game-sales-analysis/
-│
 ├── vgsales.csv
 ├── analysis.ipynb
 └── README.md
@@ -90,7 +89,7 @@ video-game-sales-analysis/
 ## 🎯 Conclusion
 
 This analysis shows that genre, region, platform, and publisher significantly influence video game sales performance.
-![Sales Chart](Perbandingan Penjualan Video Game per Wilayah Berdasarkan Genre.png)
+
 ---
 
 ## 👨‍💻 Author
