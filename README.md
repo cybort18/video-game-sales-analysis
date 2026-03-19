@@ -1,99 +1,137 @@
-# 🎮 Video Game Sales Analysis
+# 🎮 Video Game Sales Analysis — Data Analytics Portfolio
 
-## 📌 Overview
-This project analyzes global video game sales data to identify trends based on genre, platform, publisher, and region.
-
-The goal of this analysis is to extract meaningful insights that can support business decisions in the gaming industry.
+> 📊 Dataset: `vgsales.csv` — Contains over 16,500 video game records including platform, genre, publisher, and global sales.
 
 ---
 
-## 📊 Dataset
-- Source: Kaggle (Video Game Sales Dataset)
-- Total Records: ~16,500+
-- Features:
-  - Name
-  - Platform
-  - Year
-  - Genre
-  - Publisher
-  - NA_Sales, EU_Sales, JP_Sales
-  - Global_Sales
+## 📖 Background
+
+The video game industry is one of the fastest-growing entertainment industries in the world. Understanding sales patterns, genre popularity, and regional differences is essential for developers and publishers to make better strategic decisions.
+
+This project analyzes historical video game sales data (1980–2016) to explore trends and generate insights related to genre performance, platform success, and regional preferences.
+
+This project is part of my data analytics portfolio to demonstrate skills in **data exploration, visualization, and insight generation**.
 
 ---
 
-## 🛠️ Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Google Colab
+## 🎯 Objectives
+
+This analysis aims to:
+
+1. Identify the most popular video game genres  
+2. Analyze sales distribution across regions (NA, EU, JP)  
+3. Determine top-performing platforms  
+4. Identify leading publishers  
+5. Understand differences in regional market preferences  
 
 ---
 
-## 📈 Analysis Performed
+## 🛠️ Data Analysis Workflow
 
-### 1. Data Cleaning
-- Checked missing values
-- Removed incomplete data
-
-### 2. Sales by Genre
-- Calculated total global sales per genre
-- Identified top-performing genres
-
-### 3. Regional Analysis
-- Compared sales in:
-  - North America (NA)
-  - Europe (EU)
-  - Japan (JP)
-
-### 4. Top Publishers
-- Ranked publishers based on total sales
-
-### 5. Top Platforms
-- Identified best-selling gaming platforms
+```
+1. Data Loading → Load dataset and inspect structure
+2. Data Cleaning → Handle missing values and clean data
+3. Genre Analysis → Calculate total global sales by genre
+4. Regional Analysis → Compare sales across regions
+5. Platform Analysis → Identify top-selling platforms
+6. Publisher Analysis → Rank top publishers
+7. Visualization → Create charts and interpret insights
+```
 
 ---
 
-## 📊 Key Insights
-
-- 🎯 **Action** is the best-selling genre globally  
-- 🌎 **North America** contributes the highest sales  
-- 🎮 **PS2** is the top-selling platform  
-- 🏢 **Nintendo** is the leading publisher  
-- 🇯🇵 Japan prefers **Role-Playing Games (RPG)**  
+## 📊 Analysis & Insights
 
 ---
 
-## 📷 Sample Visualization
+### 🎮 1. Global Sales by Genre
 
-![Sales by Region and Genre](Visual/Perbandingan%20Penjualan%20Video%20Game%20per%20Wilayah%20Berdasarkan%20Genre.png)
+<img src="Visual/Total%20Global%20Sales%20by%20Genre.png" width="600"/>
 
----
-
-## 🚀 How to Run
-
-1. Open the notebook in Google Colab
-2. Upload the dataset
-3. Run all cells
+**Insight:**
+- Action is the most dominant genre globally  
+- Followed by Sports and Shooter  
+- These genres consistently generate high sales  
 
 ---
 
-## 📌 Project Structure
+### 🌍 2. Regional Sales Comparison
+
+<img src="Visual/Perbandingan%20Penjualan%20Video%20Game%20per%20Wilayah%20Berdasarkan%20Genre.png" width="600"/>
+
+**Insight:**
+- North America contributes the highest sales  
+- Europe shows similar trends  
+- Japan has a strong preference for Role-Playing Games (RPG)  
+
+---
+
+### 🎮 3. Top Platforms
+
+<img src="Visual/Top%2010%20Platform%20Video%20Game%20Berdasarkan%20Penjualan%20Global.png" width="600"/>
+
+**Insight:**
+- PS2 is the best-selling platform  
+- Followed by Xbox 360 and PS3  
+- Platform popularity strongly influences sales performance  
+
+---
+
+### 🏢 4. Top Publishers
+
+<img src="Visual/Top%2010%20Publisher%20Video%20Game%20Berdasarkan%20Penjualan%20Global.png" width="600"/>
+
+**Insight:**
+- Nintendo dominates global sales  
+- Followed by Electronic Arts and Activision  
+- Large publishers significantly control market share  
+
+---
+
+## 📁 Repository Structure
+
+```
 video-game-sales-analysis/
+│
 ├── vgsales.csv
-├── analysis.ipynb
+├── Video Game Sales Analyst.ipynb
+├── Visual/
+│ ├── Total Global Sales by Genre.png
+│ ├── Top 10 Platform Video Game Berdasarkan Penjualan Global.png
+│ ├── Top 10 Publisher Video Game Berdasarkan Penjualan Global.png
+│ └── Perbandingan Penjualan Video Game per Wilayah Berdasarkan Genre.png
 └── README.md
+```
 
+
+---
+
+## 🔧 Tools & Technologies
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Google Colab  
 
 ---
 
 ## 🎯 Conclusion
 
-This analysis shows that genre, region, platform, and publisher significantly influence video game sales performance.
+This analysis shows that genre, platform, publisher, and region all play an important role in determining video game sales.
+
+Understanding these patterns can help businesses and developers make better strategic decisions in the gaming industry.
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
 Muhammad Zaky Ramadhan  
 📧 zakyr9278@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/zaky07
+🔗 LinkedIn: https://www.linkedin.com/in/zaky07  
+
+---
+
+⭐ *This project is part of my data analytics learning journey.*
+Publisher Analysis → Rank top publishers
+
+Visualization → Create charts and interpret insights
