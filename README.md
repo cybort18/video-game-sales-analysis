@@ -65,7 +65,7 @@ The goal of this analysis is to extract meaningful insights that can support bus
 
 ## 📷 Sample Visualization
 
-![Sales by Region and Genre](Visual/Perbandingan Penjualan Video Game per Wilayah Berdasarkan Genre.png)
+![Sales by Region and Genre](Visual/Perbandingan%20Penjualan%20Video%20Game%20per%20Wilayah%20Berdasarkan%20Genre.png)
 
 ---
 
